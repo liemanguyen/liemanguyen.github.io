@@ -1,3 +1,4 @@
 $(document).ready(function() {
-	pass;
+	$("#title").fadeIn(1000);
+	$("#description").delay(1000).fadeIn(1000);
 });
