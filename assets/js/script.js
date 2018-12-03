@@ -12,6 +12,11 @@ $(document).ready(function() {
     $("#strawberry-field").click(function() {
     	strawberry.paused ? strawberry.play() : strawberry.pause();
     });
+    $("#strawberry-field").hover(function() {
+        $("#strawberry-field").attr("src", "assets/img/strawberry-fields-forever.gif");
+    }, function() {
+        $("#strawberry-field").attr("src", "assets/img/strawberry-field.jpg");
+    });
 
     $("#la-la-land").hover(function() {
     	$("#la-la-land").attr("src", "assets/img/la-la-land.gif");
