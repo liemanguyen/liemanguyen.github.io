@@ -3,38 +3,113 @@
 	padding: 0;
 }
 
-#navbar {
+html {
+	scroll-behavior: smooth;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#navbar-container {
 	position: fixed;
+	width: 15vw;
+	height: 120vh;
 	z-index: 1;
 }
 
-#header {
-	box-shadow: 0 25px 50px 0 white inset, 0 -25px 50px 0 white inset;
+#navbar {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	line-height: normal;
+	background-color: white;
+	width: 15vw;
+	height: 100vh;
+	border-right: 1px solid grey;
+}
+
+.section-id {
+	display: block;
+	font-family: 'Quicksand', sans-serif;
+	margin: 10vh 0 10vh 0;
+}
+
+#music, #tv-film, #miscellanea {
+	font-family: 'Crimson Text', serif;
+	margin: 10vh 0 10vh 0;
+}
+
+#home {
+	box-shadow: 0 50vh 30vh white inset, 0 -50vh 30vh white inset;
 }
 
 #title-container {
 	position: relative;
-	font-family: 'Noto Sans', sans-serif;
-	width: 40%;
+	font-family: 'Crimson Text', serif;
+	width: 50vw;
 	left: 25vw;
 }
 
-#title {
+#greeting {
 	position: absolute;
 	font-size: 48pt;
-	margin-top: 10vh;
+	margin-top: 20vh;
+	z-index: 1;
+}
+
+#introduction {
+	position: absolute;
+	font-size: 48pt;
+	margin-top: 35vh;
 	z-index: 1;
 }
 
 #description {
 	position: absolute;
-	font-size: 18pt;
-	margin-top: 50vh;
+	font-size: 20pt;
+	margin-top: 60vh;
 	z-index: 1;
 }
 
 #background-img {
+	position: relative;
 	width: 100vw;
-	height: 100vh;
+	height: 80vh;
+	margin-top: 10vh;
 	opacity: 0.7;
+	box-shadow: 0 50vh 30vh white inset, 0 -50vh 30vh white inset;
+}
+
+#content-container {
+	display: inline-block;
+	text-align: center;
+	font-size: 36pt;
+	width: 100vw;
+}
+
+.img-music {
+	width: 40vw;
+}
+
+.img-music:hover {
+	cursor: pointer;
+}
+
+.img-tv-film {
+	width: 30vw;
+	height: 35vh;
+	margin: 5vh 5vw 5vh 5vw;
+}
+
+.img-misc {
+	width: 25vw;
+	height: 30vh;
+	margin: 3vh 3vw 3vh 3vw;
 }

@@ -4,27 +4,48 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/jquery-ui.min.js"></script>
 		<script type="text/javascript" src="assets/js/script.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
 		<title>Home</title>
 	</head>
 	<body>
-		<div id="navbar">
-			Navbar
+		<div id="navbar-container">
+			<div id="navbar">
+				<a class="section-id" href="#home">HOME</a>
+				<a class="section-id" href="#music">MUSIC</a>
+				<a class="section-id" href="#tv-film">TV/FILM</a>
+				<a class="section-id" href="#miscellanea">MISCELLANEA</a>
+			</div>
 		</div>
-		<div id="header">
+		<div id="home">
 			<div id="title-container">
-				<div id="title">
-					Hi!<br />
-					I'm Liem.
-				</div>
-				<div id="description">
-					I plan to make this my personal website in the future, but for now I'll use it to show you a few of my favorite things.
-				</div>
+				<div id="greeting">Hi!</div>
+				<div id="introduction">I'm Liem.</div>
+				<div id="description">I plan to make this my personal website in the future, but for now I'll use it to show you a few of my favorite things.</div>
 			</div>
 			<img src="assets/img/maldives.jpg" id="background-img" alt="Art Gallery">
 		</div>
 		<div id="content-container">
+			<div id="music">MUSIC</div>
+			<img src="assets/img/strawberry-field.jpg" id="strawberry-field" class="img-music" alt="Strawberry Field">
+			<audio id="sff" src="assets/img/strawberry-fields-forever.mp3"></audio>
+
+			<div id="tv-film">TV/FILM</div>
+			<img src="assets/img/la-la-land.jpg" id="la-la-land" class="img-tv-film" alt="La La Land">
+			<img src="assets/img/interstellar.jpg" id="interstellar" class="img-tv-film" alt="Interstellar">
+			<img src="assets/img/himym.jpg" id="himym" class="img-tv-film" alt="How I Met Your Mother">
+			<img src="assets/img/office.jpg" id="office" class="img-tv-film" alt="The Office">
+
+			<div id="miscellanea">MISCELLANEA</div>
+			<img src="assets/img/federer.jpg" id="federer" class="img-misc" alt="Roger Federer">
+			<img src="assets/img/corgi.jpg" id="corgi" class="img-misc" alt="Corgi">
+			<img src="assets/img/lfc.jpg" id="lfc" class="img-misc" alt="Liverpool F.C.">
+			<img src="assets/img/usmnt.jpg" id="usmnt" class="img-misc" alt="US Men's National Soccer Team">
+			<img src="assets/img/hamster.jpg" id="hamster" class="img-misc" alt="Hamster">
+			<img src="assets/img/nature.jpg" id="nature" class="img-misc" alt="Waterfalls into a Lake">
 		</div>
 	</body>
 </html>
