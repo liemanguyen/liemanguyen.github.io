@@ -41,11 +41,6 @@ a:hover {
 	margin: 10vh 0 10vh 0;
 }
 
-#music, #tv-film, #miscellanea {
-	font-family: 'Crimson Text', serif;
-	margin: 10vh 0 10vh 0;
-}
-
 #home {
 	box-shadow: 0 50vh 30vh white inset, 0 -50vh 30vh white inset;
 }
@@ -92,6 +87,11 @@ a:hover {
 	text-align: center;
 	font-size: 36pt;
 	width: 100vw;
+}
+
+#music, #tv-film, #miscellanea {
+	font-family: 'Crimson Text', serif;
+	margin: 10vh 0 10vh 0;
 }
 
 .img-music {
