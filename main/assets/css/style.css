@@ -7,11 +7,15 @@ html {
 	scroll-behavior: smooth;
 }
 
-#home {
+.home {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	height: 100vh;
+}
+
+#main {
+	/*background-color: #4f5f76;*/
 }
 
 a, .track {
@@ -29,6 +33,7 @@ a:hover {
 
 .link {
 	font-family: 'Playfair Display', serif;
+	/*color: white;*/
 	font-size: 24pt;
 }
 
